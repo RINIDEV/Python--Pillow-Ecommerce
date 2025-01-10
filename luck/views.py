@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from .models import User, Product
 from django.contrib.auth.hashers import make_password, check_password
 
-# Create your views here.
 
 def page(request):
     return render(request, 'page.html')
